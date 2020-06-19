@@ -1,14 +1,14 @@
 {
-  "name": "eslint-config",
+  "name": "eslint-config-dcryan",
   "version": "0.0.1",
-  "description": "ESLint and Prettier Config by DRyan",
+  "description": "ESLint and Prettier Config by Daniel Ryan",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/dcryan/eslint-config.git"
+    "url": "git+ssh://git@github.com/dcryan/eslint-config-dcryan.git"
   },
   "keywords": [
     "javascript",
@@ -21,9 +21,9 @@
   "author": "Daniel Ryan <d@nielryan.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dcryan/eslint-config/issues"
+    "url": "https://github.com/dcryan/eslint-config-dcryan/issues"
   },
-  "homepage": "https://github.com/dcryan/eslint-config#readme",
+  "homepage": "https://github.com/dcryan/eslint-config-dcryan#readme",
   "peerDependencies": {},
   "devDependencies": {
     "babel-eslint": "^10.1.0",
