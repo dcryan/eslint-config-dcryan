@@ -1,17 +1,19 @@
 module.exports = {
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:prettier/recommended",
-    "plugin:prettier/react/recommended",
-    "plugin:react-hooks/recommended",
-  ],
-  "plugins": ["html"],
-  "env": {
-    "es6": true
+  extends: ["plugin:prettier/recommended"],
+  plugins: ["prettier"],
+
+  rules: {
+    "prettier/prettier": "error",
   },
-  "parser": "babel-eslint",
-  "parserOptions": {
-    "ecmaVersion": 2020
+  env: {
+    es6: true,
+  },
+  parserOptions: {
+    ecmaVersion: 2020,
+  },
+  parser: "babel-eslint",
+  parserOptions: {
+    sourceType: "module",
+    allowImportExportEverywhere: true,
   },
 };
